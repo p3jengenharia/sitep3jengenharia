@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P3J Engenharia</title>
+  <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS -->
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo (2).jpeg" alt="P3J Engenharia" class="logo-img"> <!-- Adicione o logo aqui -->
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Nós</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#partners">Parcerias</a></li> <!-- Nova aba de Parcerias -->
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="imagem de fundo.jpeg" alt="Imagem de um prédio" class="hero-img"> <!-- Imagem de um prédio -->
+  </section>
+
+  <section id="about">
+    <h2>Sobre a P3J Engenharia</h2>
+    <p>A <strong>P3J Engenharia</strong> é uma referência no setor de engenharia, consolidando-se por sua excelência e inovação em projetos elétricos. Com uma trajetória de mais de um ano, nossa empresa se destaca na execução de projetos residenciais e comerciais, sempre buscando a máxima eficiência e qualidade em cada entrega.</p>
+    
+    <p>Especializada em <strong>projetos elétricos</strong>, a P3J Engenharia também oferece uma gama abrangente de serviços pré-obras, que incluem <strong>projetos arquitetônicos, hidrossanitários, PPCI</strong> (Projeto de Prevenção e Combate a Incêndios) e <strong>maquetes 3D</strong>. Nossa equipe é composta por engenheiros altamente capacitados, comprometidos em compreender as necessidades de nossos clientes, a fim de oferecer soluções personalizadas que respeitam prazos rigorosos, garantem a qualidade e otimizam os custos.</p>
+    
+    <p>Na P3J Engenharia, acreditamos que cada projeto é uma oportunidade de inovar e criar valor. Nossa abordagem focada na excelência nos permite transformar visões em realidade, assegurando que cada detalhe seja tratado com precisão e profissionalismo. Estamos prontos para colaborar com nossos clientes, trazendo um toque de sofisticação e técnica aos seus empreendimentos.</p>
+    
+    <p>Escolher a P3J Engenharia é optar por um parceiro que valoriza a qualidade, a integridade e a sustentabilidade em todas as suas ações. Junte-se a nós e descubra como podemos transformar suas ideias em projetos concretos e bem-sucedidos.</p>
+  </section>
+
+  <section id="services">
+    <h2>Nossos Serviços</h2>
+    <div class="service-container">
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="PROJETO ELÉTRICO.jpg" alt="Projetos Elétricos">
+        </div>
+        <h3>Projetos Elétricos</h3>
+        <p>Projetos completos para garantir a eficiência e segurança das instalações elétricas.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="PROJETO HIDRAULICO.jpg" alt="Projetos Hidrossanitários">
+        </div>
+        <h3>Projetos Hidrossanitários</h3>
+        <p>Desenvolvemos projetos hidrossanitários completos, otimizando o uso da água e garantindo a eficiência do sistema.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="PROJETO PPCI.jpg" alt="Projetos de PPCI">
+        </div>
+        <h3>Projetos de PPCI</h3>
+        <p>Projetos de Prevenção e Combate a Incêndios que atendem as normas de segurança, garantindo a proteção dos ambientes.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="MAQUETE 3D.jpg" alt="Maquetes 3D">
+        </div>
+        <h3>Maquetes 3D</h3>
+        <p>Elaboração de maquetes 3D que permitem visualizar o projeto de forma realista antes da execução.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="projeto arquitetonico imagem.jpg" alt="Projetos Arquitetônicos">
+        </div>
+        <h3>Projetos Arquitetônicos</h3>
+        <p>Projetos arquitetônicos inovadores, adaptados às necessidades dos nossos clientes.</p>
+      </div>
+      <div class="service-box">
+        <div class="service-icon">
+          <img src="PROJETO ELÉTRICO SOLAR.jpg" alt="Projeto Elétrico Solar Residencial">
+        </div>
+        <h3>Projeto Elétrico Solar Residencial</h3>
+        <p>Desenvolvemos projetos elétricos para sistemas de energia solar em residências, promovendo sustentabilidade e economia.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Parcerias -->
+  <section id="partners">
+    <h2>Nossos Parceiros</h2>
+    <div class="partners-container">
+      <div class="partner-box">
+        <img src="LOGO PARCERIA ENG THAÍS.jpeg" alt="Logo Parceiro 1" class="partner-logo">
+      </div>
+      <div class="partner-box">
+      </div>
+      <!-- Adicione mais parceiros conforme necessário -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Entre em contato</h2>
+    
+    <div class="contact-container">
+      <form action="envia-formulario.php" method="POST" id="contact-form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+  
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+  
+        <label for="phone">Telefone</label>
+        <input type="tel" id="phone" name="phone" placeholder="(35) 99999-9999">
+  
+        <label for="message">Mensagem</label>
+        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+  
+        <button type="submit">Enviar</button>
+      </form>
+  
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:contato@p3jengenharia.com">contato@p3jengenharia.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/p3j_engenharia">@p3j_engenharia</a></p>
+        <p><strong>Telefone:</strong> <a href="tel:+5535998232978">(35) 99823-2978</a></p>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>© 2024 P3J Engenharia. Todos os direitos reservados.</p>
+    <ul class="social-links">
+      <li><a href="https://www.instagram.com/p3j_engenharia/">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/in/p3j_engenharia">LinkedIn</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script> <!-- Referência ao JavaScript -->
+</body>
+</html>
