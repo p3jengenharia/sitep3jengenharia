@@ -5,23 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>P3J Engenharia</title>
   <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS -->
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"> <!-- Favicon atualizado -->
-
-  <!-- Dados estruturados para o logo da empresa -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "P3J Engenharia",
-    "url": "https://p3jengenharia.com.br",
-    "logo": "https://p3jengenharia.com.br/logo.cabeçalho.jpg"
-  }
-  </script>
+  <link rel="icon" href="/favicon.ico" type="favicon.ico.jpg"> <!-- Favicon -->
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="logo.cabeçalho.jpg" alt="P3J Engenharia" class="logo-img"> <!-- Logo do cabeçalho -->
+      <img src="logo (2).jpeg" alt="P3J Engenharia" class="logo-img"> <!-- Adicione o logo aqui -->
     </div>
     <nav>
       <ul>
@@ -95,7 +84,21 @@
       </div>
     </div>
   </section>
-
+  <section id="projetos-realizados">
+    <h2>Projetos Realizados</h2>
+    <div class="carousel">
+        <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <div class="carousel-container">
+            <div class="carousel-item"><img src="PPCIP-THAIS.jpeg" alt="PPCIP THAÍS"></div>
+            <div class="carousel-item"><img src="Projeto-Arquitetonico-THAIS.jpeg" alt="Projeto Arquitetônico - THAÍS"></div>
+            <div class="carousel-item"><img src="Maquete-3D-Casa.jpeg" alt="Maquete 3D Casa"></div>
+            <div class="carousel-item"><img src="Maquete-3D-Dentro-de-Casa.jpeg" alt="Maquete 3D Dentro de Casa"></div>
+            <div class="carousel-item"><img src="Maquete-3D.jpeg" alt="Maquete 3D"></div>
+            <div class="carousel-item"><img src="Maquete-3D-2.jpeg" alt="Maquete 3D 2"></div>
+        </div>
+        <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+    </div>
+</section>
   <!-- Seção de Parcerias -->
   <section id="partners">
     <h2>Nossos Parceiros</h2>
@@ -137,6 +140,7 @@
     </div>
   </section>
   
+
   <footer>
     <p>© 2024 P3J Engenharia. Todos os direitos reservados.</p>
     <ul class="social-links">
